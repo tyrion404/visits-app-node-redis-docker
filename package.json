@@ -1,0 +1,20 @@
+{
+  "name": "visits-app-node-redis-docker",
+  "version": "1.0.0",
+  "description": "an app that counts total visits on site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "redis": "^3.0.2"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "docker"
+  ],
+  "author": "xscotophilic",
+  "license": "ISC"
+}
